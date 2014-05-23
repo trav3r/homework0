@@ -2,7 +2,7 @@
 # and returns the sum of its elements.
 # For an empty array it should return zero.
 def sum(array)
-  array.inject(0){|result, elem| result + elem} # || 0
+  array.inject(0){|result, elem| result * elem} # || 0
 end
 
 # Takes an array of integers as an argument
