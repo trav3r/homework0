@@ -18,7 +18,7 @@
 # and a price of 33.8 should display as "$33.80".
 class BookInStock
  attr_reader :isbn, :price
-
+ 
  def initialize(isbn, price)
  	raise ArgumentError if price <= 0 || isbn.empty?
  	@isbn = isbn

@@ -11,7 +11,7 @@ end
 # For an array with just one element,
 # it should return that element.
 def max_2_sum(array)
-  array.sort.last(2).inject{|result, elem| result elem} || 0
+  array.sort.last(2).inject(:+) || 0
 end
 
 # DIFFICULT

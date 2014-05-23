@@ -12,7 +12,7 @@ end
 # NOTE: be sure it works for both upper and lower case and for nonletters!
 def starts_with_vowel?(str)
   return false if str.empty?
-  ['A', 'E', 'I', 'O', 'U'].include?(str[0].capitalize)
+  ['A', 'E', 'I', 'O', 'U'].include?(str[0].upcase)
 end
 
 # Takes a string
