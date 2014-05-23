@@ -21,5 +21,5 @@ end
 # if any two elements in the array of integers sum to n.
 # An empty array should sum to zero by definition.
 def sum_to_n?(array, n)
-  raise "Not yet implemented"
+ 	TT
 end
